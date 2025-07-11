@@ -6,7 +6,7 @@ import Link from 'next/link'
 const curriculum = [
   {
     week: 1,
-    title: 'Foundation & AI Mindset',
+    title: 'Generative AI Literacy',
     description: 'Establish core generative-AI concepts, leadership mindset and strategy',
     modules: [
       {
@@ -200,7 +200,7 @@ export default function CurriculumPage() {
                 transition={{ delay: 0.1 * weekIndex }}
                 className="bg-white rounded-2xl shadow-lg overflow-hidden"
               >
-                <div className="bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#A40033] text-white p-6">
+                <div className="bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#EBBFD0] text-white p-6">
                   <div className="flex items-center justify-between">
                     <div>
                       <h3 className="text-2xl font-bold mb-1">
@@ -251,7 +251,7 @@ export default function CurriculumPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8 }}
-            className="mt-16 text-center bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#A40033] rounded-2xl p-8 text-white"
+            className="mt-16 text-center bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#EBBFD0] rounded-2xl p-8 text-white"
           >
             <h2 className="text-3xl font-bold mb-4">
               Ready to Transform Your Startup Journey?

@@ -101,10 +101,10 @@ export default function RegisterPage() {
             
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Register for the{' '}
-              <span className="gradient-text">AI Startup Course</span>
+              <span className="gradient-text">AI for Business and Workplace Automation Course</span>
             </h1>
             <p className="text-xl text-gray-600">
-              Transform your startup journey with AI-powered strategies
+              Transform your AI Integration journey with proven strategies
             </p>
           </div>
 
