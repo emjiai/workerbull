@@ -19,38 +19,38 @@ import {
 const features = [
   {
     icon: Lightbulb,
-    title: 'AI-Powered Idea Validation',
-    description: 'Use AI tools to validate your startup ideas in hours, not months. Learn proven frameworks for rapid market testing.',
+    title: 'AI Literacy',
+    description: 'Build foundational understanding of AI concepts, capabilities, and limitations. Learn how AI works and how to effectively integrate it into your workflow.',
     color: 'from-purple-500 to-purple-600',
   },
   {
     icon: Code,
-    title: 'No-Code MVP Building',
-    description: 'Build functional MVPs using AI and no-code tools. Launch your product in days with our step-by-step guidance.',
+    title: 'Prompting Techniques',
+    description: 'Master the art of AI prompting with proven frameworks and techniques. Learn to get consistent, high-quality results from any AI system.',
     color: 'from-pink-500 to-pink-600',
   },
   {
     icon: Users,
-    title: 'AI Customer Discovery',
-    description: 'Master AI-driven customer research techniques. Find your ideal customers and understand their needs deeply.',
+    title: 'AI Assistants and Task Automations',
+    description: 'Create intelligent AI assistants and automate repetitive tasks. Build custom workflows that save time and increase productivity.',
     color: 'from-blue-500 to-blue-600',
   },
   {
     icon: TrendingUp,
-    title: 'Growth Hacking with AI',
-    description: 'Leverage AI for viral marketing, content creation, and automated growth strategies that actually work.',
+    title: 'AI Products Development',
+    description: 'Learn to design, build, and launch AI-powered products. From concept to market with practical development strategies.',
     color: 'from-green-500 to-green-600',
   },
   {
     icon: BarChart,
-    title: 'Data-Driven Decisions',
-    description: 'Use AI analytics to make informed decisions. Track metrics that matter and pivot with confidence.',
+    title: 'AI Ethics and Governance',
+    description: 'Understand responsible AI practices, bias mitigation, and governance frameworks. Build ethical AI systems that users can trust.',
     color: 'from-orange-500 to-orange-600',
   },
   {
     icon: Rocket,
-    title: 'Scale & Automate',
-    description: 'Automate repetitive tasks with AI. Scale your operations efficiently while maintaining quality.',
+    title: 'Agentic AI Workflows',
+    description: 'Design autonomous AI agents that can plan, execute, and adapt. Create sophisticated workflows that handle complex multi-step tasks.',
     color: 'from-indigo-500 to-indigo-600',
   },
 ]
@@ -66,13 +66,13 @@ export default function Features() {
           className="text-center mb-16"
         >
           <div className="flex items-center justify-center gap-2 mb-4">
-            <Sparkles className="text-purple-600" size={24} />
+            <Sparkles className="text-white-600" size={24} />
             <h2 className="text-4xl md:text-5xl font-bold">
               What You'll <span className="gradient-text">Master</span>
             </h2>
           </div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Transform your startup journey with these AI-powered skills and strategies
+            Transform your business with these AI-powered skills and strategies
           </p>
         </motion.div>
 
@@ -108,20 +108,20 @@ export default function Features() {
           viewport={{ once: true }}
           className="mt-16"
         >
-          <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 md:p-12">
+          <div className="bg-gradient-to-r from-[#E8EAE7] via-[#F5F6F8] to-[#C1C8DF] rounded-2xl p-8 md:p-12">
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div>
-                <Clock className="text-purple-600 mx-auto mb-3" size={40} />
-                <h4 className="text-2xl font-bold mb-2">6 Weeks</h4>
+                <Clock className="text-blak-600 mx-auto mb-3" size={40} />
+                <h4 className="text-2xl font-bold mb-2">4 Weeks</h4>
                 <p className="text-gray-600">Intensive hands-on program</p>
               </div>
               <div>
-                <MessageSquare className="text-pink-600 mx-auto mb-3" size={40} />
+                <MessageSquare className="text-black-600 mx-auto mb-3" size={40} />
                 <h4 className="text-2xl font-bold mb-2">Live Sessions</h4>
                 <p className="text-gray-600">Interactive Q&A with experts</p>
               </div>
               <div>
-                <Shield className="text-purple-600 mx-auto mb-3" size={40} />
+                <Shield className="text-black-600 mx-auto mb-3" size={40} />
                 <h4 className="text-2xl font-bold mb-2">Lifetime Access</h4>
                 <p className="text-gray-600">All materials & future updates</p>
               </div>

@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+      <div className="absolute inset-0 bg-gradient-to-br from-[#E8EAE7] via-[#F5F6F8] to-[#C1C8DF]">
         <div className="absolute inset-0 bg-grid-pattern opacity-[0.02]"></div>
       </div>
 
@@ -80,7 +80,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6"
+            className="inline-flex items-center gap-2 bg-purple-100 text-black-700 px-4 py-2 rounded-full text-sm font-medium mb-6"
           >
             <Zap size={16} />
             <span>Limited Early Bird Offer - 50% OFF</span>
@@ -93,11 +93,11 @@ export default function Hero() {
             transition={{ delay: 0.3 }}
             className="text-5xl md:text-7xl font-bold mb-6"
           >
-            Launch Your Startup{' '}
-            <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+            Integrate Generative AI{' '}
+            <span className="bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#A40033] bg-clip-text text-transparent">
               10x Faster
             </span>{' '}
-            with AI
+            in Your Business
           </motion.h1>
 
           {/* Subheading */}
@@ -107,8 +107,7 @@ export default function Hero() {
             transition={{ delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed"
           >
-            Master cutting-edge AI tools and strategies to validate ideas, 
-            build MVPs, and scale your startup in record time.
+            Learn how to build and integrate generative AI tools to automate tasks, improve workflows, and boost productivity in your business.
           </motion.p>
 
           {/* Feature Pills */}
@@ -120,15 +119,15 @@ export default function Hero() {
           >
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
               <Target size={16} className="text-purple-600" />
-              <span className="text-sm font-medium">AI-Powered Validation</span>
+              <span className="text-sm font-medium">Build AI Applications</span>
             </div>
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
               <TrendingUp size={16} className="text-pink-600" />
-              <span className="text-sm font-medium">10x Growth Strategies</span>
+              <span className="text-sm font-medium">Automate Workflows</span>
             </div>
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
               <Brain size={16} className="text-purple-600" />
-              <span className="text-sm font-medium">Expert Mentorship</span>
+              <span className="text-sm font-medium">Learn with Case Studies</span>
             </div>
           </motion.div>
 
@@ -141,7 +140,7 @@ export default function Hero() {
           >
             <Link
               href="/register"
-              className="group bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 transform hover:scale-105"
+              className="group bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#A40033] text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 transform hover:scale-105"
             >
               Enroll Now - Save $500
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
@@ -154,7 +153,7 @@ export default function Hero() {
             </Link>
             <Link
               href="/register"
-              className="bg-purple-100 text-purple-700 px-8 py-4 rounded-full font-semibold text-lg border-2 border-purple-200 hover:bg-purple-200 hover:shadow-lg transition-all duration-300"
+              className="bg-purple-100 text-black-700 px-8 py-4 rounded-full font-semibold text-lg border-2 border-purple-200 hover:bg-purple-200 hover:shadow-lg transition-all duration-300"
             >
               Start Date: {formattedDate}
             </Link>
@@ -172,15 +171,15 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="text-3xl md:text-4xl font-bold text-purple-600">100+</div>
-              <div className="text-gray-600 mt-1">Students Enrolled</div>
+              <div className="text-3xl md:text-4xl font-bold text-black-600">10+</div>
+              <div className="text-gray-600 mt-1">Organizations Trained</div>
             </motion.div>
             <motion.div 
               className="text-center"
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="text-3xl md:text-4xl font-bold text-pink-600">6</div>
+              <div className="text-3xl md:text-4xl font-bold text-black-600">4</div>
               <div className="text-gray-600 mt-1">Weeks Program</div>
             </motion.div>
             <motion.div 
@@ -188,7 +187,7 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="text-3xl md:text-4xl font-bold text-purple-600">95%</div>
+              <div className="text-3xl md:text-4xl font-bold text-green-600">95%</div>
               <div className="text-gray-600 mt-1">Success Rate</div>
             </motion.div>
           </motion.div>

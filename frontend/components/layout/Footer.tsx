@@ -27,11 +27,11 @@ export default function Footer() {
   }
 
   const socialLinks = [
-    { href: 'https://x.com/soosbuilder', icon: Twitter, label: 'Twitter' },
-    { href: 'https://www.linkedin.com/company/soos-builder', icon: Linkedin, label: 'LinkedIn' },
-    { href: 'https://www.instagram.com/soosbuilder', icon: Instagram, label: 'Instagram' },
-    { href: 'https://www.youtube.com/@soosbuilder', icon: Youtube, label: 'Youtube' },
-    { href: 'mailto:info@soosbuilder.com', icon: Mail, label: 'Email' },
+    { href: 'https://x.com/workerbulls', icon: Twitter, label: 'Twitter' },
+    { href: 'https://www.linkedin.com/company/workerbulls', icon: Linkedin, label: 'LinkedIn' },
+    { href: 'https://www.instagram.com/workerbulls', icon: Instagram, label: 'Instagram' },
+    { href: 'https://www.youtube.com/@workerbulls', icon: Youtube, label: 'Youtube' },
+    { href: 'mailto:info@workerbull.com', icon: Mail, label: 'Email' },
   ]
 
   return (
@@ -42,10 +42,10 @@ export default function Footer() {
           {/* Brand Section */}
           <div>
             <h3 className="text-2xl font-bold gradient-text mb-4">
-              AI Startup Launch
+            WorkerBull
             </h3>
             <p className="text-gray-600 mb-4">
-              Empowering entrepreneurs to build and scale startups with AI.
+              Empowering businesses to build and scale with AI.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -119,7 +119,7 @@ export default function Footer() {
         <div className="border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-600 text-sm">
-              {currentYear} AI Startup Launch. All rights reserved.
+              {currentYear} WorkerBull Limited. All rights reserved.
             </p>
             <p className="text-gray-600 text-sm flex items-center gap-1">
               Made with <Heart size={16} className="text-red-500 fill-current" /> for entrepreneurs

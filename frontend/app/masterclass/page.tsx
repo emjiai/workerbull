@@ -4,8 +4,8 @@ import ToolsSection from '@/components/masterclass/ToolsSection'
 import RegisterForm from '@/components/masterclass/RegisterForm'
 
 export const metadata = {
-  title: 'One-Day Masterclass | AI Startup Launch',
-  description: 'Join our intensive 6-hour masterclass to fast-track your AI product development skills.',
+  title: 'One-Day Masterclass | WorkerBull',
+  description: 'Join our intensive 6-hour masterclass to fast-track your AI product development and integration skills.',
 }
 
 export default function MasterclassPage() {

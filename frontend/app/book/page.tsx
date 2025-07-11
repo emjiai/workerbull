@@ -129,7 +129,7 @@ export default function BookPage() {
               <span className="gradient-text">Consultation</span>
             </h1>
             <p className="text-xl text-gray-600">
-              Get personalized guidance for your AI-powered startup journey
+              Get personalized guidance for your AI inttegration journey
             </p>
           </div>
 
@@ -140,7 +140,7 @@ export default function BookPage() {
                 onClick={() => setConsultationType('free')}
                 className={`px-6 py-3 rounded-full font-medium transition-all ${
                   consultationType === 'free'
-                    ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white'
+                    ? 'bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#A40033] text-white'
                     : 'text-gray-600 hover:text-gray-900'
                 }`}
               >

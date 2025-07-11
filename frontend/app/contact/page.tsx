@@ -56,8 +56,8 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: 'Email',
-      content: 'info@soosbuilder.com',
-      link: 'mailto:info@soosbuilder.com',
+      content: 'info@workerbull.com',
+      link: 'mailto:info@workerbull.com',
     },
     {
       icon: MessageSquare,
@@ -229,7 +229,7 @@ export default function ContactPage() {
               </div>
 
               {/* Office Hours */}
-              <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white">
+              <div className="bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#EBBFD0] rounded-2xl p-8 text-white">
                 <h3 className="text-xl font-bold mb-4">Office Hours</h3>
                 <div className="space-y-2">
                   <p>Monday - Friday: 9:00 AM - 5:00 PM GMT</p>

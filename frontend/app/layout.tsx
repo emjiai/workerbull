@@ -9,18 +9,18 @@ const outfit = Outfit({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
-  title: 'Launch Startup 10x Faster with AI',
-  description: 'Master AI tools and strategies to accelerate your startup journey. 6-week intensive program with expert mentorship.',
-  keywords: 'AI startup, startup course, AI tools, entrepreneurship, business automation',
+  title: 'Learn How to Use and Build Generative AI Apps for Workplace and Business',
+  description: 'Master AI tools and strategies to accelerate your business growth. 6-week intensive program with expert consulting.',
+  keywords: 'WorkerBull, startup course, AI tools, workplace automation, business automation',
   openGraph: {
-    title: 'Launch Startup 10x Faster with AI',
-    description: 'Master AI tools and strategies to accelerate your startup journey',
+    title: 'Learn How to Integrate and Use Generative AI Apps for Workplace and Business Automation',
+    description: 'Master AI tools and strategies to accelerate your business growth.',
     images: ['/og-image.png'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Launch Startup 10x Faster with AI',
-    description: 'Master AI tools and strategies to accelerate your startup journey',
+    title: 'Generative AI Apps for Workplace and Business',
+    description: 'Master AI tools and strategies to accelerate your business growth',
     images: ['/og-image.png'],
   }
 }

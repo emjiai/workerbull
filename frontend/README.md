@@ -39,7 +39,7 @@ A modern, mobile-responsive Next.js application for managing and selling an AI s
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd launch-startup-ai
+   cd workerbull
    ```
 
 2. **Install dependencies**
@@ -99,7 +99,7 @@ A modern, mobile-responsive Next.js application for managing and selling an AI s
 ## Project Structure
 
 ```
-launch-startup-ai/
+workerbull/
 ├── app/
 │   ├── api/              # API routes
 │   ├── admin/            # Admin pages

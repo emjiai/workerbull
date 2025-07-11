@@ -97,7 +97,7 @@ export default function PrivacyPage() {
       content: `If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:
       
       Email: privacy@soosbuilder.com
-      Data Protection Officer: info@soosbuilder.com
+      Data Protection Officer: info@workerbull.com
       
       We aim to respond to all privacy inquiries within 48 hours.`
     }
@@ -140,7 +140,7 @@ export default function PrivacyPage() {
           >
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-600 mb-8">
-                At AI Startup Launch, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, 
+                At WorkerBull, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, 
                 and safeguard your information when you use our course platform and services.
               </p>
 

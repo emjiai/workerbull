@@ -53,7 +53,13 @@ export default function AffiliateModal({ onClose }: Props) {
           <input name="lastName" placeholder="Last Name" required className="input-field" value={form.lastName} onChange={handleChange} />
           <input type="email" name="email" placeholder="Email" required className="input-field w-full" value={form.email} onChange={handleChange} />
           <textarea name="reason" placeholder="Why do you want to become our Affiliate?" required className="input-field w-full h-28" value={form.reason} onChange={handleChange} />
-          <button type="submit" className="btn-primary w-full" disabled={loading}>{loading ? 'Submitting...' : 'Submit'}</button>
+          <button
+            type="submit"
+            className={`w-full py-3 rounded-lg font-semibold bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#A40033] text-white hover:opacity-90 transition ${loading ? 'opacity-60 cursor-not-allowed' : ''}`}
+            disabled={loading}
+          >
+            {loading ? 'Submitting...' : 'Submit'}
+          </button>
         </form>
       </div>
     </div>

@@ -5,80 +5,90 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    category: 'Course Information',
+    category: 'Program Information',
     questions: [
       {
-        question: 'What is included in the "Launch Startup 10x Faster with AI" course?',
-        answer: 'The course includes 6 weeks of intensive training with live sessions twice a week, lifetime access to all materials, a private Discord community, weekly office hours with mentors, 50+ AI tools and templates, hands-on projects, and a certificate of completion.'
+        question:
+          'What is the "Generative AI for Business & Workplace Automation" program?',
+        answer:
+          'This 4-week live cohort shows professionals how to identify, design, and deploy generative-AI automations that create measurable business value across functions such as marketing, operations, finance, and HR.',
       },
       {
-        question: 'How long is the course?',
-        answer: 'The course runs for 6 weeks with live sessions on Tuesdays and Thursdays at 7 PM EST. Each week includes approximately 4-5 hours of live instruction plus self-paced assignments.'
+        question: 'How is the program structured?',
+        answer:
+          'You will attend two live workshops each week (≈2 hrs each) and complete hands-on labs between sessions. Plan for roughly 4–5 hours per week in total.',
       },
       {
-        question: 'Do I need prior coding experience?',
-        answer: 'No coding experience is required! This course focuses on no-code and AI-powered tools that allow you to build and launch startups without traditional programming skills.'
+        question: 'Do I need any coding background?',
+        answer:
+          'No coding is required. All automations are built with no-code tools and pre-trained large-language-model APIs. Basic spreadsheet skills are enough.',
       },
       {
-        question: 'What if I miss a live session?',
-        answer: 'All live sessions are recorded and made available within 24 hours. You have lifetime access to all recordings, so you can watch them at your convenience.'
-      }
-    ]
+        question: 'What if I cannot attend a live session?',
+        answer:
+          'All sessions are recorded and posted within 24 hours. You have lifetime access to recordings, templates, and updates.',
+      },
+    ],
   },
   {
-    category: 'Payment & Enrollment',
+    category: 'Enrollment & Payment',
     questions: [
       {
-        question: 'How much does the course cost?',
-        answer: 'The course is currently available for $497 (50% off the regular price of $997) as part of our early bird special. This is a one-time payment with no hidden fees.'
+        question: 'What does the tuition cover?',
+        answer:
+          'The $497 tuition includes live instruction, lifetime access to recordings & templates, private community, and post-program implementation office hours.',
       },
       {
-        question: 'What payment methods do you accept?',
-        answer: 'We accept all major credit cards, debit cards, and payments through Stripe. Payment plans may be available upon request.'
-      },
-      {
-        question: 'Is there a money-back guarantee?',
-        answer: 'We offer a 100% satisfaction guarantee. If you\'re not completely satisfied with the course within the first 30 days, we\'ll work with you to ensure you get the value you expected.'
+        question: 'Can my company pay via invoice or purchase order?',
+        answer:
+          'Yes. We can issue invoices to comply with procurement requirements. Team discounts are available for groups of three or more.',
       },
       {
         question: 'When does the next cohort start?',
-        answer: 'New cohorts start on the first Monday of each month. Check our registration page for the next available start date.'
-      }
-    ]
+        answer:
+          'A new cohort begins every four weeks. The exact date is displayed on our registration page.',
+      },
+    ],
   },
   {
-    category: 'Technical Requirements',
+    category: 'Tools & Technical',
     questions: [
       {
-        question: 'What equipment do I need?',
-        answer: 'You\'ll need a computer (laptop or desktop) with internet connection, a webcam and microphone for live sessions, and a Google account for accessing various AI tools.'
+        question: 'Which AI and automation tools will I learn?',
+        answer:
+          'We work with ChatGPT / OpenAI, Microsoft Copilot, Google Workspace AI, Zapier, Make, and several no-code agent orchestration platforms. You will also learn evaluation frameworks to swap in alternatives.',
       },
       {
-        question: 'Which AI tools will we use?',
-        answer: 'We\'ll use tools including ChatGPT, Claude, Midjourney, Bubble, Webflow, Zapier, Make.com, and many others. Most offer free tiers that are sufficient for the course.'
+        question: 'Do I need a high-spec computer?',
+        answer:
+          'Any modern laptop with a Chrome-based browser and stable internet connection is sufficient.',
       },
       {
-        question: 'Do I need to pay for AI tools separately?',
-        answer: 'While the course fee doesn\'t include AI tool subscriptions, we\'ll show you how to maximize free tiers. Most students complete the course spending less than $50 on optional tool upgrades.'
-      }
-    ]
+        question: 'Will I need to purchase paid AI subscriptions?',
+        answer:
+          'Most tools have generous free tiers. Optional paid upgrades (~$20–$50) can enhance certain labs but are not mandatory.',
+      },
+    ],
   },
   {
-    category: 'Support & Community',
+    category: 'Outcomes & Support',
     questions: [
       {
-        question: 'What kind of support is available?',
-        answer: 'You\'ll have access to weekly office hours, a private Discord community, direct mentor feedback on projects, and email support throughout the course and for 30 days after completion.'
+        question: 'What will I have by the end of the program?',
+        answer:
+          'You will leave with at least one production-ready AI automation, an ROI model tailored to your organization, and a roadmap for scaling automation initiatives.',
       },
       {
-        question: 'Can I get 1-on-1 consultations?',
-        answer: 'Yes! All students get one free 15-minute consultation. Additional paid consultations are available at discounted rates for students.'
+        question: 'Is there ongoing support after the program?',
+        answer:
+          'Graduates enjoy lifetime access to our private community, weekly office hours, and continually updated templates.',
       },
       {
-        question: 'Is there a community after the course?',
-        answer: 'Absolutely! You\'ll have lifetime access to our alumni Discord community where you can network, share wins, get feedback, and access exclusive opportunities.'
-      }
-    ]
+        question: 'Do I receive a certificate of completion?',
+        answer:
+          'Yes. A verifiable digital certificate is issued once you successfully complete the program.',
+      },
+    ],
   }
 ]
 
@@ -94,7 +104,7 @@ export default function FAQPage() {
   }
 
   return (
-    <div className="min-h-screen py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    <div className="min-h-screen py-20 bg-gradient-to-br from-[#E8EAE7] via-[#F5F6F8] to-[#C1C8DF]">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -106,7 +116,7 @@ export default function FAQPage() {
             <motion.div
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
-              className="inline-flex items-center gap-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6"
+              className="inline-flex items-center gap-2 bg-[#E8EAE7] text-[#28264C] px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
               <HelpCircle size={16} />
               <span>Got Questions? We've Got Answers</span>
@@ -117,7 +127,7 @@ export default function FAQPage() {
               <span className="gradient-text">Questions</span>
             </h1>
             <p className="text-xl text-gray-600">
-              Everything you need to know about the AI Startup Launch course
+              Everything you need to know about the Generative AI for Business and Workplace Automation course
             </p>
           </div>
 
@@ -131,7 +141,7 @@ export default function FAQPage() {
                 transition={{ delay: categoryIndex * 0.1 }}
                 className="bg-white rounded-2xl shadow-lg p-6 md:p-8"
               >
-                <h2 className="text-2xl font-bold mb-6 text-purple-600">
+                <h2 className="text-2xl font-bold mb-6 text-[#28264C]">
                   {category.category}
                 </h2>
                 
@@ -186,7 +196,7 @@ export default function FAQPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="mt-12 text-center bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white"
+            className="mt-12 text-center bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#EBBFD0] rounded-2xl p-8 text-white"
           >
             <h3 className="text-2xl font-bold mb-4">Still Have Questions?</h3>
             <p className="mb-6 text-white/90">
@@ -195,7 +205,7 @@ export default function FAQPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/contact"
-                className="bg-white text-purple-600 px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300"
+                className="bg-white text-[#28264C] px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300"
               >
                 Contact Us
               </a>

@@ -72,14 +72,14 @@ export async function POST(request: NextRequest) {
     }
 
     await sendEmail({
-      to: 'info@soosbuilder.com',
+      to: 'info@workerbull.com',
       subject: adminEmailTemplate.subject,
       html: adminEmailTemplate.html,
     })
 
     // Send confirmation email to user
     const userEmailTemplate = {
-      subject: 'We\'ve Received Your Message - AI Startup Launch',
+      subject: 'We\'ve Received Your Message - WorkerBull',
       html: `
         <!DOCTYPE html>
         <html>
@@ -90,7 +90,7 @@ export async function POST(request: NextRequest) {
         <body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f7f7f7;">
           <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 40px;">
             <div style="text-align: center; margin-bottom: 30px;">
-              <h1 style="color: #6B46C1; margin: 0;">AI Startup Launch</h1>
+              <h1 style="color: #6B46C1; margin: 0;">WorkerBull</h1>
             </div>
             
             <h2 style="color: #333333; margin-bottom: 20px;">Thank You for Reaching Out, ${name}!</h2>
@@ -116,8 +116,8 @@ export async function POST(request: NextRequest) {
             
             <p style="color: #999999; font-size: 14px; text-align: center; margin: 0;">
               Best regards,<br>
-              The AI Startup Launch Team<br>
-              <a href="mailto:info@soosbuilder.com" style="color: #6B46C1; text-decoration: none;">info@soosbuilder.com</a>
+              The WorkerBull Team<br>
+              <a href="mailto:info@workerbull.com" style="color: #6B46C1; text-decoration: none;">info@workerbull.com</a>
             </p>
           </div>
         </body>

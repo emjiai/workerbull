@@ -7,7 +7,7 @@ export default function RefundPage() {
     {
       title: 'Our Commitment to Your Success',
       icon: Heart,
-      content: `At AI Startup Launch, we're deeply committed to providing exceptional value and supporting your entrepreneurial journey. We've invested significant resources into creating a comprehensive course that delivers real, actionable results. Our focus is on your success, and we believe that commitment goes both ways.`
+      content: `At WorkerBull, we're deeply committed to providing exceptional value and supporting your Generative AI integration journey. We've invested significant resources into creating a comprehensive course that delivers real, actionable results. Our focus is on your success, and we believe that commitment goes both ways.`
     },
     {
       title: 'Why We Don\'t Offer Traditional Refunds',
@@ -52,7 +52,7 @@ export default function RefundPage() {
       • Technical issues preventing course access
       • Duplicate purchases
       
-      Please contact us at support@soosbuilder.com within 7 days, and we'll work with you to find a fair solution. This may include course credit, transfer to a future cohort, or other accommodations based on the specific situation.`
+      Please contact us at info@workerbull.com within 7 days, and we'll work with you to find a fair solution. This may include course credit, transfer to a future cohort, or other accommodations based on the specific situation.`
     },
     {
       title: 'Your Success Is Our Priority',
@@ -136,9 +136,9 @@ export default function RefundPage() {
                 transition={{ delay: 0.8 }}
                 className="mt-12 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white"
               >
-                <h3 className="text-2xl font-bold mb-4">Ready to Transform Your Future?</h3>
+                <h3 className="text-2xl font-bold mb-4">Ready to Transform Your Business?</h3>
                 <p className="mb-6 text-white/90">
-                  Join hundreds of successful entrepreneurs who have launched their AI-powered startups with our proven system.
+                  Join successful companies who have integrated AI-poweredpowered applications with our proven system.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a

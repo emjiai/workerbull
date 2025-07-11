@@ -4,25 +4,25 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 271 27% 26%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 267 34% 53%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 267 34% 53%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 271 27% 26%;
+    --background: 100 7% 91%; /* #E8EAE7 */
+    --foreground: 240 33% 23%; /* #28264C */
+    --card: 100 7% 91%;
+    --card-foreground: 240 33% 23%;
+    --popover: 100 7% 91%;
+    --popover-foreground: 240 33% 23%;
+    --primary: 240 33% 23%; /* dark blue */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 235 20% 38%; /* muted indigo */
+    --secondary-foreground: 100 7% 91%;
+    --muted: 225 33% 92%;
+    --muted-foreground: 235 20% 38%;
+    --accent: 225 33% 69%; /* periwinkle */
+    --accent-foreground: 240 33% 23%;
+    --destructive: 341 100% 32%; /* crimson */
+    --destructive-foreground: 0 0% 100%;
+    --border: 235 20% 38%;
+    --input: 235 20% 38%;
+    --ring: 225 33% 69%;
     --radius: 0.5rem;
   }
  
@@ -77,11 +77,11 @@
   }
   
   .text-gradient {
-    @apply bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
   }
 
   .btn-primary {
-    @apply bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300;
+    @apply bg-gradient-to-r from-primary to-accent text-white px-6 py-3 rounded-full font-semibold hover:shadow-lg transition-all duration-300;
   }
 
   .btn-secondary {

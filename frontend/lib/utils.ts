@@ -59,14 +59,14 @@ export function validatePhone(phone: string): boolean {
   return phoneRegex.test(phone)
 }
 
-// The course runs in 6-week cycles and always starts on the
-// Monday of the 6th week in each cycle.
+// The course runs in 4-week cycles and always starts on the
+// Monday of the 4th week in each cycle.
 // We treat the 1st day of the current month as the beginning of a cycle.
 // The "next start date" is therefore:
-//   1.  Six weeks (42 days) after the 1st of the current month, and then
+//   1.  Four weeks (28 days) after the 1st of the current month, and then
 //   2.  Adjusted to the next Monday (inclusive).
 // If that computed Monday is in the past, we advance in additional
-// 6-week increments until we find the next future Monday.
+// 4-week increments until we find the next future Monday.
 export function getNextCourseStartDate(): Date {
   const today = new Date()
 
@@ -77,22 +77,22 @@ export function getNextCourseStartDate(): Date {
   let cycleAnchor = new Date(today.getFullYear(), today.getMonth(), 1)
 
   while (true) {
-    // 6 weeks = 42 days
-    const sixWeeksLater = new Date(cycleAnchor.getTime())
-    sixWeeksLater.setDate(sixWeeksLater.getDate() + 42)
+    // 4 weeks = 28 days
+    const fourWeeksLater = new Date(cycleAnchor.getTime())
+    fourWeeksLater.setDate(fourWeeksLater.getDate() + 28)
 
     // Find the next Monday on or after this date
-    const dayIdx = sixWeeksLater.getDay() // 0=Sun, 1=Mon …
+    const dayIdx = fourWeeksLater.getDay() // 0=Sun, 1=Mon …
     const daysToAdd = (dayIdx === 0) ? 1 : (8 - dayIdx) % 7
-    const potentialStart = new Date(sixWeeksLater.getTime())
+    const potentialStart = new Date(fourWeeksLater.getTime())
     potentialStart.setDate(potentialStart.getDate() + daysToAdd)
 
     if (potentialStart > today) {
       return potentialStart
     }
 
-    // Otherwise move the cycle anchor forward by another 6 weeks
-    cycleAnchor.setDate(cycleAnchor.getDate() + 42)
+    // Otherwise move the cycle anchor forward by another 4 weeks
+    cycleAnchor.setDate(cycleAnchor.getDate() + 28)
   }
 }
 
