@@ -1,11 +1,12 @@
 'use client'
 import { useState } from 'react'
 import Link from 'next/link'
-import { Menu, X, Sparkles } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import MobileMenu from './MobileMenu'
 import AffiliateModal from './AffiliateModal'
 import { motion } from 'framer-motion'
 import React from 'react'
+import Image from 'next/image'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -24,16 +25,19 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center">
             <motion.div
               whileHover={{ rotate: 360 }}
               transition={{ duration: 0.5 }}
             >
-              <Sparkles className="text-purple-600" size={32} />
+              <Image
+                src="/workerbulllogo.png"
+                alt="WorkerBull logo"
+                width={132}
+                height={132}
+                priority
+              />
             </motion.div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-              AI Startup Launch
-            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -56,7 +60,7 @@ export default function Header() {
             </button>
             <Link
               href="/waitlist"
-              className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+              className="bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#A40033] text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"
             >
               Join Waitlist
             </Link>

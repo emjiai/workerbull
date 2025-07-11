@@ -72,7 +72,7 @@ export default function RegisterPage() {
   }
 
   const courseIncludes = [
-    '6 weeks of intensive training',
+    '4 weeks of intensive training',
     'Live sessions every Tuesday & Thursday',
     'Lifetime access to all materials',
     'Private Slack community',

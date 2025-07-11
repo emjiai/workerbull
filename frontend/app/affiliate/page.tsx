@@ -2,8 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Affiliate Terms | AI Startup Launch',
-  description: 'Terms and conditions for participating in the AI Startup Launch affiliate program.',
+  title: 'Affiliate Terms | WorkerBull',
+  description: 'Terms and conditions for participating in the WorkerBull affiliate program.',
 }
 
 export default function AffiliateTermsPage() {
@@ -11,7 +11,7 @@ export default function AffiliateTermsPage() {
     <div className="container mx-auto px-4 py-12 max-w-3xl text-gray-800">
       <h1 className="text-3xl font-bold mb-6">Affiliate Program Terms &amp; Conditions</h1>
 
-      <p className="mb-4">Thank you for your interest in becoming an affiliate for AI Startup Launch. These Terms &amp; Conditions ("Terms") govern your participation in our affiliate program ("Program"). By joining the Program, you agree to comply with and be bound by the Terms below.</p>
+      <p className="mb-4">Thank you for your interest in becoming an affiliate for WorkerBull. These Terms &amp; Conditions ("Terms") govern your participation in our affiliate program ("Program"). By joining the Program, you agree to comply with and be bound by the Terms below.</p>
 
       <h2 className="text-xl font-semibold mt-8 mb-2">1. Enrollment &amp; Approval</h2>
       <ul className="list-disc pl-6 space-y-2">
@@ -50,7 +50,7 @@ export default function AffiliateTermsPage() {
       <h2 className="text-xl font-semibold mt-8 mb-2">7. Modification</h2>
       <p className="mb-4">We may update these Terms occasionally. Continued participation after any changes constitutes acceptance of the revised Terms.</p>
 
-      <p className="mt-8">Questions? Contact us at <Link href="mailto:info@soosbuilder.com" className="text-purple-600 hover:underline">affiliates@soosbuilder.com</Link>.</p>
+      <p className="mt-8">Questions? Contact us at <Link href="mailto:info@workerbull.com" className="text-purple-600 hover:underline">info@workerbull.com</Link>.</p>
     </div>
   )
 }

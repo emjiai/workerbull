@@ -93,7 +93,7 @@ export default function WaitlistPage() {
               <span className="gradient-text">Exclusive Waitlist</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Get notified first when registration opens for our AI Startup Launch course
+              Get notified first when registration opens for our Generative AI for Business and Workplace Automation course
             </p>
           </div>
 

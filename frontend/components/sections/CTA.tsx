@@ -47,7 +47,7 @@ export default function CTA() {
   }, [])
 
   return (
-    <section className="py-20 bg-gradient-to-r from-purple-600 to-pink-600 text-white relative overflow-hidden">
+    <section className="py-20 bg-gradient-to-r from-[#1E1433] via-[#4E5174] to-[#A40033] text-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-grid-pattern"></div>
@@ -71,11 +71,11 @@ export default function CTA() {
           </motion.div>
 
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Ready to Launch Your AI-Powered Startup?
+            Ready to Integrate Generative AI for Business Automation?
           </h2>
           
           <p className="text-xl mb-4 text-white/90">
-            Join 100+ entrepreneurs who are building and scaling their startups 10x faster with AI
+            Join 100+ professionals who are building and integrating Generative AI for Business Automation 10x faster with AI
           </p>
 
           <p className="text-xl md:text-2xl mb-8 text-white/90">

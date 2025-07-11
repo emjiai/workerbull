@@ -6,11 +6,11 @@ export default function TermsPage() {
   const sections = [
     {
       title: '1. Acceptance of Terms',
-      content: `By accessing and using the AI Startup Launch course platform ("Service"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this Service.`
+      content: `By accessing and using the Generative AI for Business and Workplace Automation course platform ("Service"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this Service.`
     },
     {
       title: '2. Course Enrollment and Access',
-      content: `Upon successful payment, you will receive access to the AI Startup Launch course materials. This access is granted to you personally and is non-transferable. Sharing your account credentials or course materials with others is strictly prohibited and may result in immediate termination of access without refund.`
+      content: `Upon successful payment, you will receive access to the Generative AI for Business and Workplace Automation course materials. This access is granted to you personally and is non-transferable. Sharing your account credentials or course materials with others is strictly prohibited and may result in immediate termination of access without refund.`
     },
     {
       title: '3. Payment Terms',
@@ -18,7 +18,7 @@ export default function TermsPage() {
     },
     {
       title: '4. Intellectual Property',
-      content: `All course materials, including but not limited to videos, documents, templates, and tools, are the intellectual property of AI Startup Launch and are protected by copyright laws. You may not reproduce, distribute, modify, create derivative works of, publicly display, or commercially exploit any of our content without our express written permission.`
+      content: `All course materials, including but not limited to videos, documents, templates, and tools, are the intellectual property of WorkerBull and are protected by copyright laws. You may not reproduce, distribute, modify, create derivative works of, publicly display, or commercially exploit any of our content without our express written permission.`
     },
     {
       title: '5. Student Conduct',
@@ -31,11 +31,11 @@ export default function TermsPage() {
     },
     {
       title: '6. Disclaimers',
-      content: `While we strive to provide valuable and accurate information, the AI Startup Launch course is for educational purposes only. We make no guarantees about your individual success or income potential. Your results will depend on many factors including but not limited to your background, dedication, desire, and motivation.`
+      content: `While we strive to provide valuable and accurate information, the Generative AI for Business and Workplace Automation course is for educational purposes only. We make no guarantees about your individual success or income potential. Your results will depend on many factors including but not limited to your background, dedication, desire, and motivation.`
     },
     {
       title: '7. Limitation of Liability',
-      content: `To the fullest extent permitted by law, AI Startup Launch shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses.`
+      content: `To the fullest extent permitted by law, WorkerBull shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses.`
     },
     {
       title: '8. Privacy and Data Protection',
@@ -57,8 +57,8 @@ export default function TermsPage() {
       title: '12. Contact Information',
       content: `If you have any questions about these Terms of Service, please contact us at:
       
-      Email: legal@soosbuilder.com
-      Address: AI Startup Launch, Legal Department
+      Email: info@workerbull.com
+      Address: WorkerBull, Legal Department
       
       By enrolling in our course, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.`
     }
@@ -101,7 +101,7 @@ export default function TermsPage() {
           >
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-600 mb-8">
-                Welcome to AI Startup Launch. These terms of service ("Terms") govern your use of our website and course platform. 
+                Welcome to WorkerBull. These terms of service ("Terms") govern your use of our website and course platform. 
                 By accessing or using our Service, you agree to be bound by these Terms.
               </p>
 

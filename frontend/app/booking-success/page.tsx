@@ -118,7 +118,7 @@ export default function BookingSuccessPage() {
                 Return to Home
               </Link>
               <a
-                href="mailto:info@soosbuilder.com"
+                href="mailto:info@workerbull.com"
                 className="btn-secondary"
               >
                 Contact Support

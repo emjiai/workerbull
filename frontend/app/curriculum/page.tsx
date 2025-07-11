@@ -7,163 +7,115 @@ const curriculum = [
   {
     week: 1,
     title: 'Foundation & AI Mindset',
-    description: 'Master the fundamentals of AI-powered entrepreneurship',
+    description: 'Establish core generative-AI concepts, leadership mindset and strategy',
     modules: [
       {
-        title: 'Introduction to AI for Startups',
+        title: 'Introduction to Generative AI & Prompt Engineering',
         duration: '90 min',
         topics: [
-          'AI landscape overview',
-          'Key AI tools for entrepreneurs',
-          'Setting up your AI toolkit',
-          'Cost optimization strategies',
+          'Overview of Generative AI and its business applications',
+          'Prompt engineering and AI model interactions',
+          'AI-First leadership principles',
+          'Building high-performance AI teams & culture',
+          'Innovation & strategic mindset for AI adoption',
         ],
       },
       {
-        title: 'Idea Validation with AI',
+        title: 'Innovation & Strategy with Generative AI',
         duration: '120 min',
         topics: [
-          'AI-powered market research',
-          'Competitor analysis automation',
-          'Customer persona development',
-          'Rapid prototyping techniques',
+          'Identifying high-value automation opportunities',
+          'Ideation frameworks for AI use cases',
+          'Road-mapping generative-AI projects',
+          'Competitor Analysis & Market Research',
+          'Case studies: Successful AI implementations in business',
         ],
       },
     ],
   },
   {
     week: 2,
-    title: 'Building Your MVP',
-    description: 'Launch your product in days, not months',
+    title: 'Generative AI Use Cases by Department',
+    description: 'Explore department-specific applications to drive efficiency and growth',
     modules: [
       {
-        title: 'No-Code AI Development',
+        title: 'Business Functions',
         duration: '120 min',
         topics: [
-          'Replit, Loveable AI, Base44, Bolt AI',
-          'AI-powered design tools',
-          'Automation with Zapier & Make',
-          'Database design basics',
-          "AI Agents"
+          'Marketing: Content generation & personalization',
+          'Sales: Lead generation and customer interaction automation',
+          'HR: Recruitment process automation and employee engagement',
+          'Finance: Financial forecasting and report generation',
+          'Customer Service: Chatbots, ticket routing, response generation',
         ],
       },
       {
-        title: 'AI Content Creation',
-        duration: '90 min',
+        title: 'Operations Functions',
+        duration: '120 min',
         topics: [
-          'Copy generation with ChatGPT',
-          'Image creation with Gemini',
-          'Video content with AI tools',
-          'Brand identity development',
-          'AI Digital Workers'
+          'Supply Chain: Demand forecasting, vendor communication, logistics',
+          'R & D: Idea generation and research automation',
+          'Admin: Task automation, process documentation & SOP creation',
+          'HSE: Safety incident reporting, analytics & pre-incident prediction',
+          'Quality Assurance: Compliance & audit report automation',
         ],
       },
     ],
   },
   {
     week: 3,
-    title: 'Customer Discovery & PMF',
-    description: 'Find product-market fit faster with AI',
+    title: 'Tools & Implementation Labs',
+    description: 'Hands-on experience with no-code tools and AI workspaces for business automation.',
     modules: [
       {
-        title: 'AI-Driven Customer Research',
-        duration: '90 min',
+        title: 'No-Code Tools for Generative AI',
+        duration: '120 min',
         topics: [
-          'Automated survey creation',
-          'Sentiment analysis tools',
-          'User interview automation',
-          'Data synthesis techniques',
+          'Introduction to Zapier and Make for workflow automation',
+          'Base44, Loveable, Bolt, Replit for AI integration',
+          'Building custom AI solutions without coding',
+          'Best practices for no-code AI implementations',
+          'AI tool selection and integration',  
         ],
       },
       {
-        title: 'Rapid Testing & Iteration',
+        title: 'AI Workspaces & Chatbots',
         duration: '120 min',
         topics: [
-          'A/B testing with AI',
-          'Analytics and insights',
-          'Feature prioritization',
-          'Pivot strategies',
+          'Microsoft Office 365 Copilot for productivity',
+          'Google Workspace AI features',
+          'Chatbots: ChatGPT, Gemini, Claude, Grok, Deepseek, Perplexity',
+          'Integrating AI into daily business operations',
+          'Multi Agent and Digital Workforce Orchestration'
         ],
       },
     ],
   },
   {
     week: 4,
-    title: 'Growth Hacking with AI',
-    description: 'Scale your startup with automated growth strategies',
+    title: 'AI Ethics, Governance & ROI',
+    description: 'Ensure responsible adoption while measuring value and mitigating risk',
     modules: [
       {
-        title: 'AI Marketing Automation',
-        duration: '120 min',
-        topics: [
-          'SEO optimization with AI',
-          'Social media automation',
-          'Email marketing campaigns',
-          'Influencer outreach strategies',
-        ],
-      },
-      {
-        title: 'Viral Content Creation',
+        title: 'Ethics and Governance in AI',
         duration: '90 min',
         topics: [
-          'Content ideation with AI',
-          'Trend analysis and timing',
-          'Multi-channel distribution',
-          'Community building tactics',
-        ],
-      },
-    ],
-  },
-  {
-    week: 5,
-    title: 'Operations & Scaling',
-    description: 'Automate operations and prepare for scale',
-    modules: [
-      {
-        title: 'AI-Powered Operations',
-        duration: '90 min',
-        topics: [
-          'Customer service automation',
-          'Project management with AI',
-          'Financial planning tools',
-          'Team collaboration systems',
+          'Ethical considerations in Generative AI',
+          'Data privacy and security in AI applications',
+          'Regulatory compliance and governance frameworks',
+          'Bias detection & mitigation',
+          'Responsible AI principles & fairness',
         ],
       },
       {
-        title: 'Fundraising Preparation',
+        title: 'ROI, Risks & Scaling',
         duration: '120 min',
         topics: [
-          'Pitch deck creation with AI',
-          'Financial modeling',
-          'Investor research automation',
-          'Due diligence preparation',
-        ],
-      },
-    ],
-  },
-  {
-    week: 6,
-    title: 'Launch & Beyond',
-    description: 'Execute your launch and plan for long-term success',
-    modules: [
-      {
-        title: 'Launch Strategy',
-        duration: '120 min',
-        topics: [
-          'Launch campaign planning',
-          'PR automation tools',
-          'Partnership strategies',
-          'Metrics and KPI tracking',
-        ],
-      },
-      {
-        title: 'Future-Proofing Your Startup',
-        duration: '90 min',
-        topics: [
-          'Staying ahead of AI trends',
-          'Building defensible moats',
-          'Scaling strategies',
-          'Exit planning basics',
+          'Calculating ROI for AI projects',
+          'Risk assessment and mitigation strategies',
+          'Case studies: AI implementation successes and failures',
+          'Future-proofing your AI strategy',
+          'Continuous improvement loops',
         ],
       },
     ],
@@ -172,7 +124,7 @@ const curriculum = [
 
 export default function CurriculumPage() {
   return (
-    <div className="min-h-screen py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50">
+    <div className="min-h-screen py-20 bg-gradient-to-br from-[#E8EAE7] via-[#F5F6F8] to-[#C1C8DF]">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -187,14 +139,14 @@ export default function CurriculumPage() {
               className="inline-flex items-center gap-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
               <BookOpen size={16} />
-              <span>6-Week Intensive Program</span>
+              <span>4-Week Intensive Program</span>
             </motion.div>
             
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               Course <span className="gradient-text">Curriculum</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              A comprehensive roadmap to launch and scale your AI-powered startup
+              A comprehensive roadmap to build and integrate generative ai in your business.
             </p>
           </div>
 
@@ -232,8 +184,8 @@ export default function CurriculumPage() {
                 <div className="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
                   <Rocket className="text-green-600" size={32} />
                 </div>
-                <h3 className="font-semibold mb-1">Launch Ready</h3>
-                <p className="text-sm text-gray-600">In 6 weeks</p>
+                <h3 className="font-semibold mb-1">Automation Ready</h3>
+                <p className="text-sm text-gray-600">In 4 weeks</p>
               </div>
             </div>
           </motion.div>
@@ -248,7 +200,7 @@ export default function CurriculumPage() {
                 transition={{ delay: 0.1 * weekIndex }}
                 className="bg-white rounded-2xl shadow-lg overflow-hidden"
               >
-                <div className="bg-gradient-to-r from-purple-600 to-pink-600 text-white p-6">
+                <div className="bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#A40033] text-white p-6">
                   <div className="flex items-center justify-between">
                     <div>
                       <h3 className="text-2xl font-bold mb-1">
@@ -299,7 +251,7 @@ export default function CurriculumPage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8 }}
-            className="mt-16 text-center bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white"
+            className="mt-16 text-center bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#A40033] rounded-2xl p-8 text-white"
           >
             <h2 className="text-3xl font-bold mb-4">
               Ready to Transform Your Startup Journey?

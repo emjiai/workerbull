@@ -49,10 +49,10 @@ export default function AboutPage() {
   ]
 
   const milestones = [
-    { year: '2022', event: 'Founded AI Startup Launch' },
-    { year: '2023', event: 'Launched first cohort with 10 students' },
+    { year: '2022', event: 'Founded WorkerBull Launch' },
+    { year: '2023', event: 'Launched first cohort with 1 company' },
     { year: '2024', event: 'Expanded globally with new programs' },
-    { year: '2025', event: 'Reached 100+ successful graduates' },
+    { year: '2025', event: 'Reached 100+ successful professionals' },
   ]
 
   return (
@@ -76,10 +76,10 @@ export default function AboutPage() {
             
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               About{' '}
-              <span className="gradient-text">AI Startup Launch</span>
+              <span className="gradient-text">WorkerBull</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Empowering entrepreneurs to build and scale AI-powered startups through practical education and community support
+              Empowering busieness teams to build and integrate Generative AI-powered applications for workplace and business automation
             </p>
           </div>
 
@@ -94,23 +94,23 @@ export default function AboutPage() {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  We believe that AI is the greatest technological opportunity of our generation, and every entrepreneur 
+                  We believe that AI is the greatest technological opportunity of our generation, and every business 
                   should have access to the tools and knowledge needed to harness its power.
                 </p>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  Founded in 2022, AI Startup Launch was born from the realization that while AI technology was advancing 
-                  rapidly, practical education for entrepreneurs was lagging behind. We bridge that gap.
+                  Founded in 2022, WorkerBull was born from the realization that while AI technology was advancing 
+                  rapidly, practical education for business teams was lagging behind. We bridge that gap.
                 </p>
                 <p className="text-gray-600 leading-relaxed">
-                  Our mission is simple: democratize AI entrepreneurship by providing world-class education, 
-                  practical tools, and a supportive community to help you launch your startup 10x faster.
+                  Our mission is simple: democratize AI App development and integration by providing world-class education, 
+                  practical tools, and a supportive community to help you automate your business and workplace processes 10x faster.
                 </p>
               </div>
               <div className="relative">
                 <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white">
                   <Award className="mb-4" size={48} />
-                  <h3 className="text-2xl font-bold mb-2">100+</h3>
-                  <p className="text-white/90">Successful Graduates</p>
+                  <h3 className="text-2xl font-bold mb-2">10+</h3>
+                  <p className="text-white/90">Organizations Partnered</p>
                   <div className="mt-6">
                     <h3 className="text-2xl font-bold mb-2">95%</h3>
                     <p className="text-white/90">Success Rate</p>
@@ -231,8 +231,8 @@ export default function AboutPage() {
           >
             <h2 className="text-3xl font-bold mb-4">Ready to Join Our Community?</h2>
             <p className="text-xl mb-8 text-white/90 max-w-2xl mx-auto">
-              Be part of the next generation of AI-powered entrepreneurs. 
-              Your journey to building a successful startup starts here.
+              Be part of the next generation of AI-powered business. 
+              Your journey to building successful business and workplace AI automations starts here.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

@@ -62,7 +62,7 @@ export async function POST(request: NextRequest) {
     // send confirmation email
     const template = {
       subject: `🎉 Your Coupon Code: ${finalCode}`,
-      html: `<p>Hi ${firstName},</p><p>Your affiliate coupon code <strong>${finalCode}</strong> is now active with a ${discount}% discount.</p><p>Share it with your network!</p><p>Thanks,<br/>AI Startup Launch Team</p>`,
+      html: `<p>Hi ${firstName},</p><p>Your affiliate coupon code <strong>${finalCode}</strong> is now active with a ${discount}% discount.</p><p>Share it with your network!</p><p>Thanks,<br/>WorkerBull Team</p>`,
     }
     await sendEmail({ to: email, subject: template.subject, html: template.html })
 

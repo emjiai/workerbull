@@ -88,7 +88,7 @@ export const emailTemplates = {
             <div style="background-color: #F3E8FF; padding: 20px; border-radius: 8px; margin: 30px 0;">
               <p style="color: #6B46C1; margin: 0; font-weight: bold;">
                 📅 Course starts: ${formattedDate}<br>
-                ⏰ Duration: 6 weeks<br>
+                ⏰ Duration: 4 weeks<br>
                 💰 Regular price: $997 (Your price: $597)
               </p>
             </div>
@@ -108,7 +108,7 @@ export const emailTemplates = {
             <p style="color: #999999; font-size: 14px; text-align: center; margin: 0;">
               Best regards,<br>
               The AI Startup Launch Team<br>
-              <a href="mailto:info@soosbuilder.comm" style="color: #6B46C1; text-decoration: none;">info@soosbuilder.com</a>
+              <a href="mailto:info@workerbull.comm" style="color: #6B46C1; text-decoration: none;">info@workerbull.com</a>
             </p>
           </div>
         </body>
@@ -154,7 +154,7 @@ export const emailTemplates = {
           
           <h3 style="color: #333333; margin-top: 30px;">Course Schedule</h3>
           <ul style="color: #666666; line-height: 1.8;">
-            <li>Duration: 6 Weeks</li>
+            <li>Duration: 4 Weeks</li>
             <li>Live Sessions: Tuesdays & Thursdays, 7 PM GMT</li>
             <li>Office Hours: Saturdays, 10 AM GMT</li>
             <li>All sessions are recorded for your convenience</li>
@@ -162,7 +162,7 @@ export const emailTemplates = {
           
           <div style="background-color: #F3E8FF; padding: 20px; border-radius: 8px; margin: 30px 0;">
             <p style="color: #6B46C1; margin: 0;">
-              <strong>Need help?</strong> Reply to this email or contact us at info@soosbuilder.com
+              <strong>Need help?</strong> Reply to this email or contact us at info@workerbull.com
             </p>
           </div>
           
@@ -218,7 +218,7 @@ export const emailTemplates = {
             <p style="color:#666666;line-height:1.6;">We’ll send you the Zoom link and further details 24 hours before the event.</p>
             <hr style="border:none;border-top:1px solid #E5E7EB;margin:30px 0;" />
             <p style="color:#999999;font-size:14px;text-align:center;margin:0;">
-              Need assistance? Reply to this email or contact <a href="mailto:info@soosbuilder.com" style="color:#6B46C1;text-decoration:none;">info@soosbuilder.com</a>
+              Need assistance? Reply to this email or contact <a href="mailto:info@workerbull.com" style="color:#6B46C1;text-decoration:none;">info@workerbull.com</a>
             </p>
           </div>
         </body>
@@ -280,7 +280,7 @@ export const emailTemplates = {
           <p style="color: #999999; font-size: 14px; text-align: center; margin: 0;">
             Looking forward to speaking with you!<br>
             The AI Startup Launch Team<br>
-            <a href="mailto:info@soosbuilder.com" style="color: #6B46C1; text-decoration: none;">info@soosbuilder.com</a>
+            <a href="mailto:info@workerbull.com" style="color: #6B46C1; text-decoration: none;">info@workerbull.com</a>
           </p>
         </div>
       </body>

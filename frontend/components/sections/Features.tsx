@@ -108,11 +108,11 @@ export default function Features() {
           viewport={{ once: true }}
           className="mt-16"
         >
-          <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 md:p-12">
+          <div className="bg-gradient-to-r from-[#E8EAE7] via-[#F5F6F8] to-[#C1C8DF] rounded-2xl p-8 md:p-12">
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div>
                 <Clock className="text-purple-600 mx-auto mb-3" size={40} />
-                <h4 className="text-2xl font-bold mb-2">6 Weeks</h4>
+                <h4 className="text-2xl font-bold mb-2">4 Weeks</h4>
                 <p className="text-gray-600">Intensive hands-on program</p>
               </div>
               <div>
