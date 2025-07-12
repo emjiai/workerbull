@@ -13,7 +13,7 @@ export default function MasterclassPage() {
     <>
       <JoinSection />
       <TopicsSection />
-      <ToolsSection />
+      {/* <ToolsSection /> */}
       <RegisterForm />
     </>
   )

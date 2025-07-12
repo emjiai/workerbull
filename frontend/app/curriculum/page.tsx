@@ -71,8 +71,8 @@ const curriculum = [
         title: 'No-Code Tools for Generative AI',
         duration: '120 min',
         topics: [
-          'Introduction to Zapier and Make for workflow automation',
-          'Base44, Loveable, Bolt, Replit for AI integration',
+          'Introduction to no-code tools for workflow automation',
+          'No-code tools for AI Product Development',
           'Building custom AI solutions without coding',
           'Best practices for no-code AI implementations',
           'AI tool selection and integration',  
