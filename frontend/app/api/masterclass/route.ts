@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
     await dbConnect()
 
     const masterclassDate = getNextMasterclassDate()
-    let amount = 100 // USD
+    let amount = 750 // USD
     if (coupon) {
       amount = Math.round(amount * 0.9)
     }

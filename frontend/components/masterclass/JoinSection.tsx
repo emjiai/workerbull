@@ -22,7 +22,7 @@ export default function JoinSection() {
     {
       icon: <DollarSign className="text-purple-600" size={24} />,
       label: 'Price',
-      value: '$100',
+      value: '$750',
     },
   ]
 
