@@ -122,7 +122,7 @@ export default function Footer() {
               {currentYear} WorkerBull Limited. All rights reserved.
             </p>
             <p className="text-gray-600 text-sm flex items-center gap-1">
-              Made with <Heart size={16} className="text-red-500 fill-current" /> for entrepreneurs
+              Generative AI for Workplace and Business Transformation
             </p>
           </div>
         </div>
