@@ -93,11 +93,11 @@ export default function Hero() {
             transition={{ delay: 0.3 }}
             className="text-5xl md:text-7xl font-bold mb-6"
           >
-            Integrate Generative AI{' '}
+            Generative AI{' '}
             <span className="bg-gradient-to-r from-[#28264C] via-[#4E5174] to-[#A40033] bg-clip-text text-transparent">
-              10x Faster
+              for Workplace and
             </span>{' '}
-            in Your Business
+            Business Automation
           </motion.h1>
 
           {/* Subheading */}
@@ -107,7 +107,7 @@ export default function Hero() {
             transition={{ delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed"
           >
-            Learn how to build and integrate generative AI tools to automate tasks, improve workflows, and boost productivity in your business.
+            Learn how to build and integrate generative AI tools to automate tasks, improve workflows, and increase productivity in your business.
           </motion.p>
 
           {/* Feature Pills */}
@@ -119,7 +119,7 @@ export default function Hero() {
           >
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
               <Target size={16} className="text-purple-600" />
-              <span className="text-sm font-medium">Build AI Applications</span>
+              <span className="text-sm font-medium">Integrate AI Solutions 10x Faster</span>
             </div>
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm">
               <TrendingUp size={16} className="text-pink-600" />

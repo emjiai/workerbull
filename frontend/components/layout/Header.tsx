@@ -17,7 +17,7 @@ export default function Header() {
     { href: '/curriculum', label: 'Curriculum' },
     { href: '/register', label: 'Register' },
     { href: '/book', label: 'Consultation' },
-    { href: '/masterclass', label: 'One Day Masterclass' },
+    { href: '/masterclass', label: 'AI for Business Leaders' },
   ]
 
   return (

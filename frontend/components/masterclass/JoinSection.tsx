@@ -22,7 +22,7 @@ export default function JoinSection() {
     {
       icon: <DollarSign className="text-purple-600" size={24} />,
       label: 'Price',
-      value: '$100',
+      value: '$750',
     },
   ]
 
@@ -41,15 +41,23 @@ export default function JoinSection() {
           viewport={{ once: true }}
           className="text-4xl md:text-5xl font-extrabold mb-6"
         >
-          One-Day Masterclass
+          Generative AI for Business Leaders
         </motion.h1>
+        <motion.h3
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-2xl md:text-3xl font-bold mb-6"
+        >
+          One-Day Masterclass
+        </motion.h3>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="text-lg text-gray-700 mb-10"
         >
-          Fast-track your AI product skills in just 6 hours.
+          Fast-track your AI Leadership skills in just 6 hours.
         </motion.p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-10">

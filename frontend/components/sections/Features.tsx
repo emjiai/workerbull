@@ -19,14 +19,14 @@ import {
 const features = [
   {
     icon: Lightbulb,
-    title: 'AI Literacy',
-    description: 'Build foundational understanding of AI concepts, capabilities, and limitations. Learn how AI works and how to effectively integrate it into your workflow.',
+    title: 'Generative AI Literacy',
+    description: 'Build foundational understanding of AI concepts, capabilities, and limitations. Learn how AI works, prompt engineering, and effective communication with Generative AI.',
     color: 'from-purple-500 to-purple-600',
   },
   {
     icon: Code,
-    title: 'Prompting Techniques',
-    description: 'Master the art of AI prompting with proven frameworks and techniques. Learn to get consistent, high-quality results from any AI system.',
+    title: 'AI Adoption Strategies',
+    description: 'Explore frameworks for integrating Generative AI into existing systems using AI Automation, Augmentation, and Assistant strategies.',
     color: 'from-pink-500 to-pink-600',
   },
   {

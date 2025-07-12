@@ -206,7 +206,7 @@ export const emailTemplates = {
               <p style="color:#6B46C1;margin:0;font-weight:bold;">
                 📅 Date: ${formattedDate}<br/>
                 ⏰ Duration: 6 hours (10:00 AM – 4:00 PM GMT)<br/>
-                💰 Amount Paid: $100
+                💰 Amount Paid: $750
               </p>
             </div>
             <h3 style="color:#333333;">What to Expect</h3>
