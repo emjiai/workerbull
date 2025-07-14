@@ -26,7 +26,7 @@ const features = [
   {
     icon: Code,
     title: 'AI Adoption Strategies',
-    description: 'Explore frameworks for integrating Generative AI into existing systems using AI Automation, Augmentation, and Assistant strategies.',
+    description: 'Explore frameworks for integrating Generative AI into existing systems using AI Automation, Augmentation, and Agentic systems.',
     color: 'from-pink-500 to-pink-600',
   },
   {
