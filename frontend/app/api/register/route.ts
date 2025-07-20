@@ -58,8 +58,8 @@ export async function POST(request: NextRequest) {
           price_data: {
             currency: 'usd',
             product_data: {
-              name: 'Launch Startup 10x Faster with AI - Course',
-              description: '6-week intensive program with lifetime access',
+              name: 'Generative AI in the Workplace - Course',
+              description: '4-week intensive program with lifetime access',
               images: [`${process.env.NEXT_PUBLIC_APP_URL}/course-image.png`],
             },
             unit_amount: formatAmountForStripe(amount),
