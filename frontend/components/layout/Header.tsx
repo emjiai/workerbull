@@ -18,6 +18,7 @@ export default function Header() {
     { href: '/register', label: 'Register' },
     { href: '/book', label: 'Consultation' },
     { href: '/masterclass', label: 'AI for Business Leaders' },
+    { href: '/contact', label: 'Contact Us' },
   ]
 
   return (

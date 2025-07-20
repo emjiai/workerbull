@@ -18,7 +18,7 @@ export default function AboutPage() {
     {
       icon: Target,
       title: 'Results Focused',
-      description: 'We measure success by your success - 95% of our students launch successfully.',
+      description: 'We measure success by your success - 95% of our students learn successfully.',
     },
     {
       icon: Heart,
@@ -49,7 +49,7 @@ export default function AboutPage() {
   ]
 
   const milestones = [
-    { year: '2022', event: 'Founded WorkerBull Launch' },
+    { year: '2022', event: 'Founded WorkerBull Limited' },
     { year: '2023', event: 'Launched first cohort with 1 company' },
     { year: '2024', event: 'Expanded globally with new programs' },
     { year: '2025', event: 'Reached 100+ successful professionals' },

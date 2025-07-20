@@ -31,7 +31,7 @@ export async function sendEmail({
 }) {
   try {
     const info = await transporter.sendMail({
-      from: `"AI Startup Launch" <${process.env.EMAIL_USER}>`,
+      from: `"WorkerBull" <${process.env.EMAIL_USER}>`,
       to,
       subject,
       html,
@@ -54,7 +54,7 @@ export const emailTemplates = {
       year: 'numeric',
     })
     return {
-      subject: '🚀 Welcome to the AI Startup Launch Waitlist!',
+      subject: '🚀 Welcome to the Generative AI in the Workplace Waitlist!',
       html: `
         <!DOCTYPE html>
         <html>
@@ -65,13 +65,13 @@ export const emailTemplates = {
         <body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f7f7f7;">
           <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 40px;">
             <div style="text-align: center; margin-bottom: 30px;">
-              <h1 style="color: #6B46C1; margin: 0;">AI Startup Launch</h1>
+              <h1 style="color: #6B46C1; margin: 0;">WorkerBull</h1>
             </div>
             
             <h2 style="color: #333333; margin-bottom: 20px;">Welcome to the Waitlist, ${name}! 🎉</h2>
             
             <p style="color: #666666; line-height: 1.6; margin-bottom: 20px;">
-              Thank you for joining our waitlist for <strong>"Launch Startup 10x Faster with AI"</strong>.
+              Thank you for joining our waitlist for <strong>"Generative AI in the Workplace"</strong>.
             </p>
             
             <p style="color: #666666; line-height: 1.6; margin-bottom: 20px;">
@@ -107,7 +107,7 @@ export const emailTemplates = {
             
             <p style="color: #999999; font-size: 14px; text-align: center; margin: 0;">
               Best regards,<br>
-              The AI Startup Launch Team<br>
+              The WorkerBull Team<br>
               <a href="mailto:info@workerbull.comm" style="color: #6B46C1; text-decoration: none;">info@workerbull.com</a>
             </p>
           </div>
@@ -118,7 +118,7 @@ export const emailTemplates = {
   },
   
   registration: (name: string, courseDetails: any) => ({
-    subject: '✅ Registration Confirmed - Launch Startup 10x Faster with AI',
+    subject: '✅ Registration Confirmed - Generative AI in the Workplace',
     html: `
       <!DOCTYPE html>
       <html>
@@ -129,13 +129,13 @@ export const emailTemplates = {
       <body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f7f7f7;">
         <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 40px;">
           <div style="text-align: center; margin-bottom: 30px;">
-            <h1 style="color: #6B46C1; margin: 0;">AI Startup Launch</h1>
+            <h1 style="color: #6B46C1; margin: 0;">WorkerBull</h1>
           </div>
           
           <h2 style="color: #333333; margin-bottom: 20px;">Congratulations ${name}! 🎊</h2>
           
           <p style="color: #666666; line-height: 1.6; margin-bottom: 20px;">
-            Your registration for <strong>"Launch Startup 10x Faster with AI"</strong> is confirmed!
+            Your registration for <strong>"Generative AI in the Workplace"</strong> is confirmed!
           </p>
           
           <div style="background-color: #10B981; color: white; padding: 20px; border-radius: 8px; margin: 30px 0; text-align: center;">
@@ -170,7 +170,7 @@ export const emailTemplates = {
           
           <p style="color: #999999; font-size: 14px; text-align: center; margin: 0;">
             Looking forward to seeing you in class!<br>
-            The AI Startup Launch Team
+            The WorkerBull Team
           </p>
         </div>
       </body>
@@ -196,7 +196,7 @@ export const emailTemplates = {
         <body style="margin:0;padding:0;font-family:Arial,sans-serif;background-color:#f7f7f7;">
           <div style="max-width:600px;margin:0 auto;background-color:#ffffff;padding:40px;">
             <div style="text-align:center;margin-bottom:30px;">
-              <h1 style="color:#6B46C1;margin:0;">AI Startup Launch</h1>
+              <h1 style="color:#6B46C1;margin:0;">WorkerBull</h1>
             </div>
             <h2 style="color:#333333;margin-bottom:20px;">Thank you for signing up, ${name}! 🎉</h2>
             <p style="color:#666666;line-height:1.6;margin-bottom:20px;">
@@ -239,7 +239,7 @@ export const emailTemplates = {
       <body style="margin: 0; padding: 0; font-family: Arial, sans-serif; background-color: #f7f7f7;">
         <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff; padding: 40px;">
           <div style="text-align: center; margin-bottom: 30px;">
-            <h1 style="color: #6B46C1; margin: 0;">AI Startup Launch</h1>
+            <h1 style="color: #6B46C1; margin: 0;">WorkerBull</h1>
           </div>
           
           <h2 style="color: #333333; margin-bottom: 20px;">Booking Confirmed, ${name}! 📅</h2>
@@ -279,7 +279,7 @@ export const emailTemplates = {
           
           <p style="color: #999999; font-size: 14px; text-align: center; margin: 0;">
             Looking forward to speaking with you!<br>
-            The AI Startup Launch Team<br>
+            The WorkerBull Team<br>
             <a href="mailto:info@workerbull.com" style="color: #6B46C1; text-decoration: none;">info@workerbull.com</a>
           </p>
         </div>
