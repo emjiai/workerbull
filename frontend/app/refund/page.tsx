@@ -166,7 +166,7 @@ export default function RefundPage() {
                   Questions About Our Policy?
                 </p>
                 <p className="text-purple-700 text-sm">
-                  We're here to help! Contact us at support@soosbuilder.com or book a free consultation 
+                  We're here to help! Contact us at info@workerbull.com or book a free consultation 
                   to discuss any concerns before enrolling.
                 </p>
               </motion.div>

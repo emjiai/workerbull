@@ -63,7 +63,7 @@ export default function PrivacyPage() {
       • Opt-out: Unsubscribe from marketing communications at any time
       • Data Portability: Request your data in a structured, machine-readable format
       
-      To exercise these rights, please contact us at privacy@soosbuilder.com.`
+      To exercise these rights, please contact us at info@workerbull.com.`
     },
     {
       title: '6. Cookies and Tracking',
@@ -96,7 +96,7 @@ export default function PrivacyPage() {
       title: '11. Contact Us',
       content: `If you have questions or concerns about this Privacy Policy or our data practices, please contact us at:
       
-      Email: privacy@soosbuilder.com
+      Email: info@workerbull.com
       Data Protection Officer: info@workerbull.com
       
       We aim to respond to all privacy inquiries within 48 hours.`
