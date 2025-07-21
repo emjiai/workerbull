@@ -250,9 +250,9 @@ export default function ContactPage() {
                   For urgent course-related issues, current students can reach out via:
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
-                  <li>• Discord community (fastest response)</li>
+                  <li>• WhatsApp community (fastest response)</li>
                   <li>• Direct message to course mentors</li>
-                  <li>• Emergency email: urgent@soosbuilder.com</li>
+                  <li>• Emergency email: info@workerbull.com</li>
                 </ul>
               </div>
             </motion.div>

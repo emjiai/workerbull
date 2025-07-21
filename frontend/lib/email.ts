@@ -98,9 +98,10 @@ export const emailTemplates = {
             </p>
             
             <div style="text-align: center; margin: 30px 0;">
-              <a href="https://www.linkedin.com/company/soos-builder" style="display: inline-block; margin: 0 10px; color: #6B46C1; text-decoration: none;">LinkedIn</a>
-              <a href="https://x.com/soosbuilder" style="display: inline-block; margin: 0 10px; color: #6B46C1; text-decoration: none;">Twitter</a>
-              <a href="https://www.youtube.com/@soosbuilder" style="display: inline-block; margin: 0 10px; color: #6B46C1; text-decoration: none;">YouTube</a>
+              <a href="https://www.linkedin.com/company/theworkerbulls" style="display: inline-block; margin: 0 10px; color: #6B46C1; text-decoration: none;">LinkedIn</a>
+              <a href="https://x.com/theworkerbulls" style="display: inline-block; margin: 0 10px; color: #6B46C1; text-decoration: none;">Twitter</a>
+              <a href="https://www.youtube.com/@theworkerbulls" style="display: inline-block; margin: 0 10px; color: #6B46C1; text-decoration: none;">YouTube</a>
+              <a href="https://www.instagram.com/theworkerbulls" style="display: inline-block; margin: 0 10px; color: #6B46C1; text-decoration: none;">Instagram</a>
             </div>
             
             <hr style="border: none; border-top: 1px solid #E5E7EB; margin: 30px 0;">
